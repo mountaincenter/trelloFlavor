@@ -11,6 +11,7 @@ const SortableItem = ({ id }: { id: UniqueIdentifier }) => {
     <div
       ref={setNodeRef}
       style={{ transform: CSS.Transform.toString(transform), transition }}
+      className="my-2 cursor-pointer rounded-lg bg-blue-100 p-2 shadow"
       {...attributes}
       {...listeners}
     >

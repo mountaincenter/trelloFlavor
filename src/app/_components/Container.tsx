@@ -36,7 +36,7 @@ const Container = () => {
   );
 
   return (
-    <div className="mx-auto flex flex-row">
+    <div className="flex flex-row space-x-4 p-4">
       <DndContext
         sensors={sensors}
         collisionDetection={closestCorners}
